@@ -14,18 +14,24 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-lg fixed top-0 w-full z-50">
-      <div className="container mx-auto px-6 py-1 flex items-center justify-between">
+    <nav className="bg-white/90 backdrop-blur-sm border-b border-gray-200 shadow-lg fixed top-0 w-full z-50">
+      <div className="container mx-auto px-8 py-4 min-h-[64px] flex items-center justify-between">
         <Link href="/">
-          <Image
-            src="caririlogo.png"
-            alt="Cariri Code Logo"
-            width={1000}
-            height={1000}
-            className="w-auto h-20 cursor-pointer"
-          />
+          <div className="flex items-center gap-x-3">
+            <Image
+              src="caririlogo.png"
+              alt="Cariri Code Logo"
+              width={1000}
+              height={1000}
+              className="w-auto h-16 cursor-pointer"
+            />
+            <div className="hidden sm:flex flex-col leading-tight">
+              <span className="font-bold text-lg">Cariri Code</span>
+              <span className="text-sm text-gray-600">TI & Programação Para Empresas</span>
+            </div>
+          </div>
         </Link>
-        <div className="hidden md:flex gap-x-6 items-center text-gray-700 font-medium text-lg">
+  <div className="hidden md:flex gap-x-8 items-center text-gray-700 font-medium text-lg md:text-xl ml-auto mr-16">
           <Link href="/showcase" className="hover:text-[#2420ee] transition">
             Projetos
           </Link>
@@ -50,9 +56,7 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex items-center gap-x-4">
           <Link
-            href={
-              ""
-            }
+            href={""}
             target="_blank"
             className="py-2
             px-10
@@ -135,7 +139,7 @@ hover:bg-[#2420ee]
                 </Link>
                 <Link
                   href={
-                    "https://api.whatsapp.com/send/?phone=5535996715241&text=Oi+gostaria+de+fazer+um+orçamento&type=phone_number&app_absent=0"
+                    ""
                   }
                   target="_blank"
                   className="py-2 px-5 text-base bg-black text-white rounded-lg hover:bg-gradient-to-r from-blue-500 to-purple-500 hover:shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105"
