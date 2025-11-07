@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     // images: [
     //   {
-    //     url: "https://i.ibb.co/CVhSDJW/logocreativestudio.jpg", //colocar aqui a logo do Creative Studio tem quer hospedada
+    //     url: "https://i.ibb.co/CVhSDJW/cariri.jpg", //colocar aqui a logo do Cariri Studio tem quer hospedada
     //     width: 1200,
     //     height: 630,
-    //     alt: "Creative Studio - Transformamos a vida de empresas",
+    //     alt: "cariri Studio - Transformamos a vida de empresas",
     //   },
     // ],
   },

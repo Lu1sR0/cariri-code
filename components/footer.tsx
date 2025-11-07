@@ -8,7 +8,7 @@ const Footer = () => {
               <img
                 src="caririlogo.png"
                 className="h-8 me-3"
-                alt="Creative Studio Logo"
+                alt="cariri code Logo"
               />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                 Cariri Code
