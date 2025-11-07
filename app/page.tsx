@@ -15,6 +15,8 @@ import Navbar from "@/components/navbar";
 import { AnimatedListDemo } from "@/components/AnimatedList";
 import { AnimatedTooltipPreview } from "@/components/Tooltip";
 import { TabsDemo } from "@/components/ProjectsTabs";
+import WordFadeIn from "@/components/magicui/word-fade-in";
+import { BlurFadeDemo } from "@/components/demos/blur-fade-demo";
 
 export default function Home() {
   return (
@@ -130,7 +132,27 @@ export default function Home() {
           </div>
         </div>
       </main>
+         <Element name="Projetos"
+        className="py-16
+         md:py-16md:px-0 mx-6 xl:w-4/5 2xl:w-[68%] md:mx-auto"
+      >
+        <div className="flex items-center justify-center relative">
+          <WordFadeIn
+            className="text-3xl pt-20 lg:text-5xl font-semibold max-w-3xl mx-auto md:text-center   z-20   "
+            words="Código Que Ajudam Seu Negócio a evoluir"
+          />
+        </div>
+        <p
+          className="md:text-center text-xl md:text-2xl my-6 py-6
+         md:py-6   md:w-4/5 mx-auto text-gray-500"
+        >
+          Dê uma olhada em alguns dos nossos projetos recentes.
+        </p>
 
+        <BlurFadeDemo />
+        
+              </Element>
+      
       <Element name="services">
         <div className="md:px-0 mx-6 xl:w-4/5 2xl:w-[68%] md:mx-auto ">
           <h1>

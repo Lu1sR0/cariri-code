@@ -32,9 +32,13 @@ const Navbar = () => {
           </div>
         </Link>
   <div className="hidden md:flex gap-x-8 items-center text-gray-700 font-medium text-lg md:text-xl ml-auto mr-16">
-          <Link href="/showcase" className="hover:text-[#2420ee] transition">
+          <ScrollLink
+            to="Projetos"
+            smooth={true}
+            className="hover:text-[#2420ee] cursor-pointer"
+          >
             Projetos
-          </Link>
+          </ScrollLink>
           <ScrollLink
             to="services"
             smooth={true}
